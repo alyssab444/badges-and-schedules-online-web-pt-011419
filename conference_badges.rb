@@ -18,8 +18,8 @@ end
 return new_array 
 end 
   
-def printer
-  batch_badge_creator(array)
+def printer(array)
+  batch_badge_creator(array).each 
   assign_rooms(array)
   
   
